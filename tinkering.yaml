@@ -21,7 +21,7 @@ addons:
     database:
       # -- Hostname of a pre-existing PostgreSQL database to use for Gitlab.
       # Entering connection info will disable the deployment of an internal database and will auto-create any required secrets.
-      host: "gitlab.cnozcqqg327m.us-east-1.rds.amazonaws.com"
+      host: "gitlabdb.cneyk0tepjw3.us-west-2.rds.amazonaws.com"
 
       # -- Port of a pre-existing PostgreSQL database to use for Gitlab.
       port: 5432
