@@ -33,7 +33,7 @@ addons:
       username: "postgres"
 
       # -- Database password for the username used to connect to the existing database.
-      password: "Pgcl1ent@techex"
+      password: "gdssft3ch3xrds"
 
     objectStorage:
       # -- Type of object storage to use for Gitlab, setting to s3 will assume an external, pre-existing object storage is to be used.
