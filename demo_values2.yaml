@@ -40,7 +40,7 @@ clusterAuditor:
         memory: null
 
 gatekeeper:
-  enabled: true
+  enabled: false
   values:
     replicas: 1
     controllerManager:
