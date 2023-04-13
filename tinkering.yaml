@@ -21,19 +21,19 @@ addons:
     database:
       # -- Hostname of a pre-existing PostgreSQL database to use for Gitlab.
       # Entering connection info will disable the deployment of an internal database and will auto-create any required secrets.
-      host: "gitlabdb.cneyk0tepjw3.us-west-2.rds.amazonaws.com"
+      host: "gitlab.cdqhrdlztdpb.us-west-2.rds.amazonaws.com"
 
       # -- Port of a pre-existing PostgreSQL database to use for Gitlab.
       port: 5432
 
       # -- Database name to connect to on host.
-      database: "gitlab" # example: gitlab
+      database: "gitlab3" # example: gitlab
 
       # -- Username to connect as to external database, the user must have all privileges on the database.
       username: "postgres"
 
       # -- Database password for the username used to connect to the existing database.
-      password: "X9085565r"
+      password: "Michael81288!"
 
     objectStorage:
       # -- Type of object storage to use for Gitlab, setting to s3 will assume an external, pre-existing object storage is to be used.
