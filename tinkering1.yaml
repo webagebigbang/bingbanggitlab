@@ -1,0 +1,15 @@
+addons:
+  argocd:
+    # -- Toggle deployment of ArgoCD.
+    enabled: true
+
+    # -- Choose source type of "git" or "helmRepo"
+    sourceType: “git”
+  anchore:
+    # -- Toggle deployment of Anchore.
+    enabled: false
+# -- Initial admin password used to authenticate to Anchore.
+    adminPassword: ""
+  mattermost:
+    # -- Toggle deployment of Mattermost.
+     enabled: true
